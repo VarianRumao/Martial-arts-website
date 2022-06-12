@@ -1,0 +1,74 @@
+*{
+		margin: 0px;
+		border: 0px;
+}
+html , body {
+	height: 100%;
+}
+.wrapper{
+	min-height: 100%;
+}
+.bgimage{
+	background-image: url("../image/homepage1.jpg");
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	background-repeat: repeat-y;
+
+	animation: main 12s infinite linear;
+	box-shadow:  1px 2px 10px 5px white;
+}
+@keyframes main{
+	0%{ background-image: url('../image/homepage2.jpg'); }
+	35%{ background-image: url('../image/homepage3.jpg'); }
+	75%{ background-image: url('../image/homepage4.jpg'); }
+
+}
+
+#onlink{
+	color: #e50914;
+	text-shadow: hsl();
+	text-decoration:none;
+	font-weight: bold;
+}
+*{
+		margin: 0px;
+		border: 0px;
+}
+.menu{
+	background-color: #212121;
+}
+.hamburger{
+	background-color: #212121;
+}
+.logod{
+	background-color: #212121;
+}
+.nav-links{
+	background-color: #212121;
+}
+.nav-links li{
+	color: black;
+}
+.textmatter{
+	width: 100%;
+	margin-top: 30%;
+	text-transform: uppercase;
+	text-align: center;
+	color:black;
+	background-color: grey;
+}
+.textmatter h4{
+  color: black
+	font-size: 60px;
+	margin-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+.text h1{
+	font-size: 90px;
+	font-family: 'Open Sans'sans-serif;
+	font-weight: 700px;
+	margin-top: 10px;
+	margin:30px 0px;
+}

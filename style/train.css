@@ -1,0 +1,159 @@
+.wrapper{
+
+	background-color: white;
+	background-image: none;
+	height: 100%;
+	width: 100%;
+}
+.bgimage1{
+
+	background-color: white;
+		height: 100%;
+	width: 100%;
+	position: absolute;
+}
+.menu{
+	background-color: #212121;
+}
+.hamburger{
+	background-color: #212121;
+}
+.logod{
+	background-color: #212121;
+}
+.nav-links{
+	background-color: #212121;
+}
+.bigdiv.relative{
+	margin-top: 10%;
+}
+.bigdiv{
+	width: 100%;
+	height: 90%;
+	margin-top: 10vh;
+	position: relative;
+	background-color: #121212;
+	display: flex;
+}
+.ft{
+	flex: 1;
+	width: 100%;
+	height: 100%;
+	border-left: 10%;
+	border-radius: 0%;
+	border: solid 10px #212121;
+	position: relative;
+  	left: 0;
+  	transform-style: preserve-3d;
+  	transition: all 0.5s ease;
+}
+.ft:hover{
+  transform: rotateY(180deg);
+}
+ .thefront{
+	 display: flex;
+	 flex-direction: column;
+  position: absolute;
+	justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background-size: 100% 100%;
+  color: #000;
+}
+.ftimage1{
+	flex: 3;
+	width: 100%;
+	height: 100%;
+	border-color: #212121;
+	  background-image: url("../image/ft.jpg");
+		background-size: 100% 100%;
+}
+.ftimage2{
+	flex: 3;
+	width: 100%;
+	border-color: #212121;
+	  background-image: url("../image/selfdef.jpg");
+		background-size: 100% 100%;
+}
+.ftimage3{
+	flex: 3;
+	width: 100%;
+	border-color: #212121;
+	  background-image: url("../image/5.jpg");
+		background-size: 100% 100%;
+}
+
+.theback{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: #212121;
+  color: white;
+  transform: rotateY(180deg);
+	text-align: center;
+	align-items: center;
+}
+.ftt1{
+	flex: 1;
+	background-color: #212121;
+	text-align: center;
+	float: left;
+	margin: auto;
+	padding-top:10vh;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	color: grey;
+	align-items: center;
+	font-size: 2vh;
+	font-weight: bold;
+}
+#buttonn{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+}
+#buttonn {
+  border-radius: 4px;
+  background-color: #e50914;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.matter{
+   font-size: 1.3vw;
+   margin: 15%;
+  align-items: center;
+}
+
+@media only screen and (max-width:768px) {
+.bigdiv{
+	flex-direction: column;
+}
+
+.matter{
+   font-size: 1.1vh;
+ }
+ .thefront{
+	 flex-direction: row;
+ }
+ .ftimage1, .ftimage2, .ftimage3{
+	 flex: 1;
+ }
+}
